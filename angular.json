@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AngularTuts"
+    }
+  },
+  "defaultProject": "AngularTuts",
+  "cli": {
+    "analytics": "5ca46c13-2362-466a-85c3-56c2016341f9"
+  }
 }
