@@ -1,0 +1,15 @@
+<form class="todo-form">
+  <input
+    type="text"
+    placeholder="Title"
+    [(ngModel)]="title"
+    [ngModelOptions]="{standalone: true}">
+
+  <input
+    type="text"
+    placeholder="Description"
+    [(ngModel)]="description"
+    [ngModelOptions]="{standalone: true}">
+
+  <button (click)="onSumbit()">Submit</button>
+</form>
